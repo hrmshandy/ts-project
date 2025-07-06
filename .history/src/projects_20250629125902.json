@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Transport Management System",
+        "status": "active",
+        "manHour": 50
+    },
+    {
+        "name": "Portal Management System",
+        "status": "active",
+        "manHour": 100
+    },
+    {
+        "name": "E-Commerce Balanja.id",
+        "status": "pending",
+        "manHour": 30
+    }
+]
