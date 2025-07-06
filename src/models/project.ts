@@ -1,7 +1,8 @@
 import projects from '../projects.json'
 import type { IProject, ProjectStatus } from "../interfaces";
 
-export class Project implements IProject {
+// TODO: extend ke abstract class Task
+export class Project {
     public id: number;
     public name: string;
     public status: ProjectStatus;
@@ -14,7 +15,8 @@ export class Project implements IProject {
         this.manHour = data.manHour;
     }
 
-    // Getter & Setter
+    // TODO: buat function create
+    // TODO: buat function update
 }
 
 export class ProjectCollection {
